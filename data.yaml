@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['botas', 'luva', 'capacete', 'corda de vida']
+
+roboflow:
+  workspace: ufrgs-q7yg4
+  project: ppe-detection-vh98n
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ufrgs-q7yg4/ppe-detection-vh98n/dataset/1
